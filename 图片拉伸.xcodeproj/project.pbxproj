@@ -15,6 +15,9 @@
 		2976CB591C2BA71200562055 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2976CB571C2BA71200562055 /* LaunchScreen.storyboard */; };
 		2976CB641C2BA71200562055 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2976CB631C2BA71200562055 /* ____Tests.m */; };
 		2976CB6F1C2BA71200562055 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2976CB6E1C2BA71200562055 /* ____UITests.m */; };
+		2976CB7E1C2BA75400562055 /* kImageStretchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2976CB7D1C2BA75400562055 /* kImageStretchViewController.m */; };
+		2976CB801C2BB68400562055 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 2976CB7F1C2BB68400562055 /* background.png */; };
+		2976CB831C2BBF8F00562055 /* kBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2976CB821C2BBF8F00562055 /* kBaseView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,11 @@
 		2976CB6A1C2BA71200562055 /* 图片拉伸UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "图片拉伸UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2976CB6E1C2BA71200562055 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		2976CB701C2BA71200562055 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2976CB7C1C2BA75400562055 /* kImageStretchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kImageStretchViewController.h; sourceTree = "<group>"; };
+		2976CB7D1C2BA75400562055 /* kImageStretchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kImageStretchViewController.m; sourceTree = "<group>"; };
+		2976CB7F1C2BB68400562055 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		2976CB811C2BBF8F00562055 /* kBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kBaseView.h; sourceTree = "<group>"; };
+		2976CB821C2BBF8F00562055 /* kBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kBaseView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +93,7 @@
 				2976CB621C2BA71200562055 /* 图片拉伸Tests */,
 				2976CB6D1C2BA71200562055 /* 图片拉伸UITests */,
 				2976CB471C2BA71200562055 /* Products */,
+				2976CB7F1C2BB68400562055 /* background.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +114,10 @@
 				2976CB4D1C2BA71200562055 /* AppDelegate.m */,
 				2976CB4F1C2BA71200562055 /* ViewController.h */,
 				2976CB501C2BA71200562055 /* ViewController.m */,
+				2976CB7C1C2BA75400562055 /* kImageStretchViewController.h */,
+				2976CB7D1C2BA75400562055 /* kImageStretchViewController.m */,
+				2976CB811C2BBF8F00562055 /* kBaseView.h */,
+				2976CB821C2BBF8F00562055 /* kBaseView.m */,
 				2976CB521C2BA71200562055 /* Main.storyboard */,
 				2976CB551C2BA71200562055 /* Assets.xcassets */,
 				2976CB571C2BA71200562055 /* LaunchScreen.storyboard */,
@@ -247,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2976CB591C2BA71200562055 /* LaunchScreen.storyboard in Resources */,
+				2976CB801C2BB68400562055 /* background.png in Resources */,
 				2976CB561C2BA71200562055 /* Assets.xcassets in Resources */,
 				2976CB541C2BA71200562055 /* Main.storyboard in Resources */,
 			);
@@ -274,7 +288,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2976CB511C2BA71200562055 /* ViewController.m in Sources */,
+				2976CB831C2BBF8F00562055 /* kBaseView.m in Sources */,
 				2976CB4E1C2BA71200562055 /* AppDelegate.m in Sources */,
+				2976CB7E1C2BA75400562055 /* kImageStretchViewController.m in Sources */,
 				2976CB4B1C2BA71200562055 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
